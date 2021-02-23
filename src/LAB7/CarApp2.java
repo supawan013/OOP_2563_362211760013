@@ -36,7 +36,7 @@ public class CarApp2 {
     private static Car inputDataObject() {
         Scanner sc = new Scanner(System.in);
 
-        Car c = new Car();
+        Car c = new Car("AB123", "Black", "Honda");
 
         System.out.print("Enter car id : ");
         String id = sc.nextLine();
